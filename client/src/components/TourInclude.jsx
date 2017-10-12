@@ -24,9 +24,9 @@ class TourInclude extends Component {
                     <div className="well">
                         <h4>What is NOT included in the package</h4>
                         <ul>
-                            <li>Air travel Ticket costs</li>
+                            <li>Air travel Ticket costs including from Addis Ababa to Jimma and Jimma to Addis Ababa</li>
                             <li>Additional tours not specified in itinerary</li>
-                            <li>Personal expenditure such as drinks, laundry service,             souvenirs and other personal choices</li>
+                            <li>Personal expenditure such as drinks, laundry service, souvenirs and other personal choices</li>
                             <li>Gratuities to the driver/guides and hotel/lodge staff</li>
                             <li>Other optional activities</li>
                         </ul>
