@@ -12,7 +12,6 @@ class Footer extends Component {
                             <ul>
                             <li><a href="/">Home</a></li>
                             <li><a href="/products">Products</a></li>
-                            <li><a href="/tour">Tour</a></li>
                             <li><a href="/contact">Contact us</a></li>
                             <li><a href="/">Downloads</a></li>
                             </ul>
