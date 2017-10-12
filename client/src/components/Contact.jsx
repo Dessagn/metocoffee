@@ -79,7 +79,7 @@ class Contact extends Component {
                 <div className="location">
                     <div className="container">
                         <div className="row">
-                        <div className="col-md-4">
+                            <div className="col-xs-12 col-sm-12 col-md-4">
                                 <div className="well">
                                     <h3>Location</h3>
                                     <hr/>
@@ -88,7 +88,7 @@ class Contact extends Component {
                                     <h3>Dubai, UAE</h3>
                                 </div>
                             </div>
-                        <div className="col-md-4">
+                            <div className="col-xs-12 col-sm-12 col-md-4">
                                 <div className="well">
                                     <h3>Opening Hours</h3>
                                     <hr/>
@@ -98,8 +98,7 @@ class Contact extends Component {
                                     <h5><strong>Sat - Sun: </strong>  8am - 9pm</h5>
                                 </div>
                             </div>
-
-                            <div className="col-md-4">
+                            <div className="col-xs-12 col-sm-12 col-md-4">
                                 <div className="well">
                                     <h3>Contact us</h3>
                                     <hr/>
