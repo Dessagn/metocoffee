@@ -14,7 +14,7 @@ class Contact extends Component {
                 </div>
                 <div className="form-row">
                 <div className="row container">
-                    <form action="contact/sendMessage" method="post" data-toggle="validator" className="form-horizontal">
+                    <form action="/contact/sendMessage" method="post" data-toggle="validator" className="form-horizontal">
                         <p className="push-left"><strong>Fields marked <span style={{color:'red'}}>*</span> are required </strong></p>
                         <div className="form-group">
                         <label htmlFor="first_name" className="col-sm-3 control-label">First Name <span style={{color:'red'}}>*</span></label>
