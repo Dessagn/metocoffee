@@ -49,7 +49,7 @@ class Footer extends Component {
                     </div>
                     <div className="second-bar">
                         <div className="container">
-                        <h2 className="logo"><a href="/"> Meto Coffee</a></h2>
+                        <h4 className="logo"><a href="/"> Meto Coffee</a></h4>
                             <div className="social-icons">
                                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter"><i className="fa fa-twitter"></i></a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/metoCoffee/" className="facebook"><i className="fa fa-facebook"></i></a>

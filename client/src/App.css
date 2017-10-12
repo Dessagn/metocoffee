@@ -98,7 +98,8 @@ body{
   margin-bottom: 10px;
 }
 .header-nightsky .navbar-brand h1{
-  font-size: 32px;
+  font-size: 28px;
+  margin-left: 0px;
 }
 
 .header-nightsky .navbar-brand:hover {
@@ -206,9 +207,8 @@ body{
 #myFooter .second-bar .logo a{
   font-family: Monoton;
   color:white;
-  font-size: 24px;
+  font-size: 23px;
   float: left;
-  font-weight: bold;
   line-height: 68px;
   margin: 0;
   padding: 0;
@@ -246,7 +246,9 @@ body{
 #myFooter .social-icons {
   float:right;
 }
-
+#myFooter .social-icons a{
+  padding-right: 5px;
+}
 
 #myFooter .facebook:hover {
   color: #0077e2;

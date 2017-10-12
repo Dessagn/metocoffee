@@ -6,7 +6,7 @@
     margin-top: -1px;
     margin-bottom: -1px;
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 100px;
     text-align: center;
     width: 100%;
@@ -15,19 +15,21 @@
 .hero h1 {
     color: white;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 35px;
     margin-bottom: 36px;
+    line-height: 1.1;
 }
 .hero h3{
     color: white;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .hero p {
     color: white;
-    font-size: 22px;
-    max-width: 660px;
-    margin: 0 auto 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 40px auto 20px;
     font-weight: normal;
     line-height: 1.5;
 }
@@ -39,7 +41,7 @@
     outline:none;
     margin-right: 20px;
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 22px;
     padding: 18px 24px;
     transition:0.2s background-color;
 }
