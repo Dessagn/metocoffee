@@ -27,8 +27,11 @@
 .hero p {
     color: white;
     font-size: 20px;
-    padding-left: 10px;
+    padding-top: 40px;
     padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    max-width: 500px;
     margin: 40px auto 20px;
     font-weight: normal;
     line-height: 1.5;
@@ -44,6 +47,7 @@
     font-size: 22px;
     padding: 18px 24px;
     transition:0.2s background-color;
+    padding-bottom:
 }
 
 .btn-primary:hover {
