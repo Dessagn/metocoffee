@@ -50,10 +50,10 @@ app.post('/contact/sendMessage', (req, res, next) => {
         'Thank you.',
         html: '<h3 class="center">Ethiopia - Coffee Origin Tour </h3>\n <h4>This is a request for Coffee Origin Tour to be held on December 4th, 2017</h4>' +
         '<ul><li> \nFull Name: ' + req.body.first_name + ' ' + req.body.last_name +
-        '</li><li>Email: '+ req.body.email1 +
-        '</li><li>Retyped email: '+ req.body.email2 +
-        '</li><li>Email: '+ req.body.telephone +
-        '</li><li>Message: ' + req.body.message + '</li></ul>' +
+        '</li><li><strong>Email: </strong>'+ req.body.email1 +
+        '</li><li><strong>Retyped email: <strong>'+ req.body.email2 +
+        '</li><li><strong>Phone number: <strong>'+ req.body.telephone +
+        '</li><li><strong>Message: <strong>' + req.body.message + '</li></ul>' +
         '\nThank you'
     };
 

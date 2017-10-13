@@ -26,7 +26,9 @@ class Footer extends Component {
                             <br/>
                             DUBAI, UAE
                             <br/>
-                            <a href="tel: +971 56 236 7998">Tel: +971 56 236 7998</a>
+                            <a href="whatsapp://send?text=Hello, &phone=+971562367998">
+                                    <i style={{color:'white'}} className="fa fa-lg fa-whatsapp">&nbsp; +971 56 236 7998</i>
+                                     </a>
                             </p>
                         </div>
                         <div className="col-sm-3">
@@ -51,9 +53,12 @@ class Footer extends Component {
                         <div className="container">
                         <h4 className="logo"><a href="/"> Meto Coffee</a></h4>
                             <div className="social-icons">
-                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter"><i className="fa fa-twitter"></i></a>
+                                <a href="whatsapp://send?text=Hello, &phone=+971562367998">
+                                    <i style={{color:'green', 'font-size': '22px'}} className="fa fa-lg fa-whatsapp"></i>
+                                </a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/metoCoffee/" className="facebook"><i className="fa fa-facebook"></i></a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC5NukewdRDsLyBv5vOSJ0kg" className="google"><i className="fa fa-youtube"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter"><i className="fa fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>

@@ -60,7 +60,7 @@ class Contact extends Component {
                         <div className="form-group">
                         <label htmlFor="textarea" className="col-sm-3 control-label">Message</label>
                         <div className="col-sm-8">
-                            <textarea id="textarea" name="message" rows="5" placeholder="Write your message here ..." className="form-control input-lg" required></textarea>
+                            <textarea id="textarea" name="message" rows="5" placeholder="Write your message here ..." className="form-control input-lg" ></textarea>
                         </div>
                         </div>
                         <div className="form-group">
@@ -111,9 +111,12 @@ class Contact extends Component {
                                     </a></p>
 
                                     <div className="social-icons">
-                                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter"><i className="fa fa-lg fa-twitter"></i></a>
+                                        <a href="whatsapp://send?text=Hello, &phone=+971562367998">
+                                        <i style={{color:'green', 'font-size': '36px'}} className="fa fa-lg fa-whatsapp"></i>
+                                        </a>
                                         <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/metoCoffee/" className="facebook"><i className="fa fa-lg fa-facebook"></i></a>
                                         <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC5NukewdRDsLyBv5vOSJ0kg" className="google"><i className="fa fa-lg fa-youtube"></i></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter"><i className="fa fa-lg fa-twitter"></i></a>
                                     </div>
                                 </div>
                             </div>

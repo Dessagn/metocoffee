@@ -25,7 +25,7 @@ class Contact2 extends Component {
                                 <h2 onClick={this.handleClick}>&times;</h2>
                                 <h3>Thank you for Registering</h3>
                                 <p>We will contact you back shortly. Remember, You can also call us or send us a message on whatsApp</p>
-                                <h5><a href="whatsapp://send?text=Hello this is from MetoCoffee&phone=+971562367998">
+                                <h5><a href="whatsapp://send?text=Hello, &phone=+971562367998">
                                    <i className="fa fa-lg fa-whatsapp">&nbsp; +971 56 236 7998</i>
                                     </a></h5>
                             </div>
@@ -125,9 +125,9 @@ class Contact2 extends Component {
                                 <div className="well">
                                     <h3>Contact us</h3>
                                     <hr/>
-                                    <h5><a href="tel: +971 56 236 7998">
-                                   <i className="fa fa-lg fa-phone">&nbsp; +971 56 236 7998</i>
-                                    </a></h5>
+                                    <h5><a href="whatsapp://send?text=Hello, &phone=+971562367998">
+                                    <i className="fa fa-lg fa-whatsapp">&nbsp; +971 56 236 7998</i>
+                                     </a></h5>
 
                                     <p className="loong"><a href="email: metogreen@outlook.com">
                                         <i className="fa fa-lg fa-envelope-o"> &nbsp;metogreen(at)outlook.com</i>
