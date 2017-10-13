@@ -879,3 +879,29 @@ button.submit:hover {
   flex-wrap: wrap;
   margin-top: 40px;
 }
+.confirm{
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  color: green;
+
+}
+.confirm .well{
+  padding-top: 5px;
+}
+.confirm .well>h2{
+  color: red;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 96%;
+  cursor: pointer;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.confirm .well>h3{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.fa-whatsapp{
+  color: green;
+}

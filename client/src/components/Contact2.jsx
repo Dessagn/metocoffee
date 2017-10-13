@@ -1,13 +1,36 @@
 import React, { Component } from 'react';
 import TourInclude from './TourInclude';
 
-class Contact extends Component {
+class Contact2 extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            display: ''
+        };
+    }
+    handleClick = () => {
+        this.setState({
+            display: 'none'
+        });
+    };
      render() {
         return (
             <div className="contact">
                 <div className="form-row1">
                     <h3>Register for Ethiopia Coffee Origin Tour</h3>
                     <hr/>
+                    <div style={this.state} className="container confirm row">
+                        <div className="col-xs-12">
+                            <div className="well">
+                                <h2 onClick={this.handleClick}>&times;</h2>
+                                <h3>Thank you for Registering</h3>
+                                <p>We will contact you back shortly. Remember, You can also call us or send us a message on whatsApp</p>
+                                <h5><a href="whatsapp://send?text=Hello this is from MetoCoffee&phone=+971562367998">
+                                   <i className="fa fa-lg fa-whatsapp">&nbsp; +971 56 236 7998</i>
+                                    </a></h5>
+                            </div>
+                        </div>
+                    </div>
                     <div className="container push-in">
                         <h4>Please fill the form below for the tour and we will contact you. It is important that your email and telephone numbers are correctly entered. You can also provide us with additional information if you have special requests for the duration of the tour.</h4>
                     </div>
@@ -133,4 +156,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default Contact2;

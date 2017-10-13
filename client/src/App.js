@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Tour from './components/Tour';
 import Products from './components/Products';
 import Contact from './components/Contact';
+import Contact2 from './components/Contact2';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -38,6 +39,7 @@ class App extends Component {
             <Route path="/products" component={Products} />
             <Route path="/about" component={Tour} />
             <Route path="/contact" component={Contact} />
+            <Route path="/confirm" component={Contact2} />
           </Switch>
         </nav>
         <Footer />
