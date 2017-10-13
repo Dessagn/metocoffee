@@ -39,7 +39,7 @@ app.post('/contact/sendMessage', (req, res, next) => {
 
     var mailOptions = {
         from: 'MetoCoffee <metocoffee@gmail.com>',
-        to: 'metocoffee@gmail.com',
+        to: 'janetogo1200@gmail.com, metocoffee@gmail.com, metogreen@outlook.com',
         subject: 'Coffee origin Tour Subscription',
         text: 'This is a subscription request for Ethiopia - Coffee Origin Tour. I provide my contact information as below: \n' +
         'Name: ' + req.body.first_name + ' ' + req.body.last_name + ' \n' +
