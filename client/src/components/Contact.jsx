@@ -93,9 +93,9 @@ class Contact extends Component {
                                     <h3>Opening Hours</h3>
                                     <hr/>
                                     <p>We are open during the following hours every week</p>
-                                    <h5><strong>Mon - Thu:</strong>  8am - 9pm</h5>
-                                    <h5><strong>Fri: </strong>  8am - 9pm</h5>
-                                    <h5><strong>Sat - Sun: </strong>  8am - 9pm</h5>
+                                    <h5><strong>Mon - Thu:</strong>  8am - 6pm</h5>
+                                    <h5><strong>Fri: </strong>  12am - 6pm</h5>
+                                    <h5><strong>Sat - Sun: </strong>  8am - 6pm</h5>
                                 </div>
                             </div>
                             <div className="col-xs-12 col-sm-12 col-md-4">

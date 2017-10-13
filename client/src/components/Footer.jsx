@@ -33,11 +33,11 @@ class Footer extends Component {
                             <hr className="hidden-md hidden-lg"/>
                            <h5>Opening Hours</h5>
                                 <p>
-                                    Mon - Thu: 8AM - 6PM
+                                    Mon - Thu: 8am - 6pm
                                     <br/>
-                                    Fri: 12AM - 6PM
+                                    Fri: 12am - 6pm
                                     <br/>
-                                    SAT - SUN: 8AM - 6PM
+                                    SAT - SUN: 8am - 6pm
                                 </p>
                         </div>
                         <div className="col-sm-3 info">
