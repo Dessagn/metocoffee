@@ -30,17 +30,17 @@ app.post('/contact/sendMessage', (req, res, next) => {
         auth: {
             xoauth2: xoauth2.createXOAuth2Generator({
                 user: 'metocoffee@gmail.com',
-                clientId: '363071181257-9o28coha9nmatuehp9gmoh70do2u45hu.apps.googleusercontent.com',
-                clientSecret: '_1-mI4wvmYTzInrKe-TGOD7r',
-                refreshToken: '1/oq0mrlqYa2OXEBMczpgn6SGolpMgppM7udmusIS1zD0',
-                accessToken: 'ya29.GlvjBHbH6jTpH3GtgqzDzogsSFgTM0yq9oIPemS-fnqX17jFPKVbVHGA-v-edgic35w9d4Ojnw40bI6E-uQeO2At-ZXyMJkeoSCHVkqCHCkKE8tYGuHBHVfPNkbc'
+                clientId: process.env.CLIENT_ID,
+                clientSecret: process.env.CLIENT_SECRET,
+                refreshToken: process.env.REFRESH_TOKEN,
+                accessToken: process.env.ACCESS_TOKEN
             })
         }
     }));
 
     var mailOptions = {
         from: 'MetoCoffee <metocoffee@gmail.com>',
-        to: 'janetogo1200@gmail.com, metocoffee@gmail.com',
+        to: 'janetogo1200@gmail.com, metocoffee@gmail.com, metogreen@outlook.com',
         subject: 'Coffee origin Tour Subscription',
         text: 'This is a subscription request for Ethiopia - Coffee Origin Tour. I provide my contact information as below: \n' +
         'Name: ' + req.body.first_name + ' ' + req.body.last_name + ' \n' +
