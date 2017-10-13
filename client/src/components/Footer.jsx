@@ -58,7 +58,7 @@ class Footer extends Component {
                                 </a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/metoCoffee/" className="facebook"><i className="fa fa-facebook"></i></a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC5NukewdRDsLyBv5vOSJ0kg" className="google"><i className="fa fa-youtube"></i></a>
-                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter"><i className="fa fa-twitter"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter hidden-xs"><i className="fa fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>
