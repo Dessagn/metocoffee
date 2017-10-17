@@ -12,12 +12,10 @@ class Contact extends Component {
                 </div>
                 </div>
 
-                <div className="container">
-                    <TourInclude />
-                </div>
                 <div className="form-row">
                 <div className=" push-in container">
-                        <h4>Register below for the tour and we will contact you. It is important that your email and telephone numbers are correctly entered. You can also provide us with additional information if you have special requests for the duration of the tour.</h4>
+                        <h4>The tour is packaged at $1,450.00 per person, and it includes all the essential services required for the tour, including transportations, visas and food services. Other optional and personal activities will not be included in this tour package.</h4>
+                        <h5>Register below for the tour and we will contact you. It is important that your email and telephone numbers are correctly entered. You can also provide us with additional information if you have special requests for the duration of the tour.</h5>
                     </div>
                 <div className="row container-form container">
                     <form action="/contact/sendMessage" method="post" data-toggle="validator" className="form-horizontal">
@@ -76,6 +74,9 @@ class Contact extends Component {
                     </form>
 
                 </div>
+                </div>
+                <div className="container">
+                    <TourInclude />
                 </div>
 
                 <div className="location">

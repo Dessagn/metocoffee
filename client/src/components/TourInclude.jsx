@@ -4,7 +4,7 @@ class TourInclude extends Component {
     render() {
         return (
             <div className="row tour-includes">
-                <h4>The tour is packaged at $1 450.00 per person, and it includes all the essential services required for the tour, including transportations, visas and food services. Other optional and personal activities will not be included in this tour package.</h4>
+                
                 <div className="col-md-6 coll">
                     <div className="well">
                         <h4>What is included in the package</h4>
