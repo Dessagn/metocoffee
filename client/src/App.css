@@ -858,8 +858,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', end
 }
 .day-content{
   color: white;
-  font-size: 19px;
-  text-align: justify;
+  font-size: 18px;
+  text-align: center;
   margin-top: 0px;
   padding-top: 0px;
   padding-left: 2px;
