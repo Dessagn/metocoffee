@@ -14,8 +14,8 @@ class ActionCall extends Component {
                             </div>
                             <div className="col-md-4">
                                 <div className="action-btn text-left sm-text-center">
-                                    <a href="tel:+971 56 236 7998" className="call btn btn-default btn-lg">
-                                        <i className="glyphicon glyphicon-phone-alt"></i>&nbsp;
+                                    <a href="whatsapp://send?text=Hello, &phone=+971562367998" className="call btn btn-default btn-lg">
+                                        <i className="fa fa-whatsapp whatsapp"></i>&nbsp;
                                         +971-56-236-7998
                                     </a>
                                 </div>

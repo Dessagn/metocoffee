@@ -6,7 +6,11 @@
 }
 body{
   margin-left: -1px;
-  margin-right: -2px;
+  margin-right: -1px;
+}
+.push-in{
+  margin-bottom: 40px;
+  margin-top: 0px;
 }
 .push-in>h4{
   padding-left: 4px;
@@ -21,6 +25,10 @@ body{
 .nav>li>a {
   padding: 20px 5px;
   padding-bottom: 2px;
+}
+#exTab1>.nav>li>a {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header-nightsky {
@@ -449,14 +457,26 @@ body{
 .action-item {
   font-weight: 400;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   box-sizing: border-box;
 }
 .bg-primary{
-  background-color: #00a885;
-  padding-top: 10px;
+background: rgb(180,227,145); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(20,176,161,.6) 0%,rgba(84,190,121,1) 50%,rgba(20,176,161,.6) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 */
+
+
+  color: white;
+  padding-top: 5px;
   padding-block-end: 10px;
 }
+
+.whatsapp{
+  font-size: 26px;
+}
+
 section{
   overflow: hidden;
 }
@@ -469,6 +489,7 @@ section{
   letter-spacing: 1px;
   font-size: 1.5em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color:rgba(20,176,161,.6) !important;
 }
 .btn-default {
   background: transparent;
@@ -477,7 +498,6 @@ section{
   display: inline-block;
   text-align: center;
   background: transparent;
-  margin-top: 30px;
   margin-bottom: 30px;
   white-space: nowrap;
 }
@@ -552,18 +572,16 @@ section{
 
 /****************************** CONTACT ********************/
 .row, .form-row {
-  margin-right: 0px;
-  margin-left: 0px;
-  /*
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ), url("/images/contact.jpg") no-repeat;
-  background-size: cover;
-  */
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-form{
+  padding-left: auto;
+  padding-right: auto;
 }
 .contact {
   margin-right: -1px;
+  background: #F4F5F5;
 }
 .contact h3{
   padding-top: 60px;
@@ -571,29 +589,23 @@ section{
 }
 .contact .push-left{
   text-align: center;
+  margin-bottom: 20px;
 }
 .form-row{
   padding-top: 40px;
   padding-bottom: 30px;
   margin-bottom: 40px;
 }
-.form-row, .form-row1{
-  background: #F4F5F5;
-}
-
 button.submit {
   color: rgb(0, 0, 0);
-  letter-spacing: 1px;
+  letter-spacing: .8px;
   background-color: #00aced;
-  width: 150px;
-  letter-spacing: 1px;
-  font-size: 2rem;
+  letter-spacing: .8px;
   border: none;
 }
 button.submit:hover {
   color: black;
-  width: 150px;
-  letter-spacing: 1px;
+  letter-spacing: .8px;
   background-color: #01A3DF;
 }
 .google_map iframe {
@@ -604,7 +616,12 @@ button.submit:hover {
   margin-bottom: -5px;
 }
 .map-title{
-  background-color: #00a885;
+  background: rgb(180,227,145); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(20,176,161,.6) 0%,rgba(84,190,121,1) 50%,rgba(20,176,161,.6) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 */
+
   padding-top: 15px;
   padding-block-end: 15px;
   color: white;
@@ -733,19 +750,14 @@ button.submit:hover {
   text-decoration: underline;
   margin-bottom: 30px;
 }
-.tour-description h5{
-  font-size: 16px;
-  letter-spacing: .8px;
-}
 .tour-description p{
-  font-size: 18px;
+  font-size: 17px;
 }
 .btn-info{
-  width: 150px;
   color: white;
   font-size: 20px;
   letter-spacing: 0.8px;
-  margin-left: 5px;
+  margin-left:15px;
   background: transparent;
   border-color: grey;
   background-color: rgba(211,211,211, 0.15);
@@ -757,11 +769,13 @@ button.submit:hover {
 }
 .push-center{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
   margin-top: 25px;
-  margin-bottom: 30px;
+}
+#exTab1{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .push-center strong{
   font-size: 28px;
@@ -778,6 +792,13 @@ button.submit:hover {
   font-size: 18px;
   letter-spacing: .0px;
   text-align: left;
+}
+.video{
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .tour-days{
   text-align: left;
@@ -821,8 +842,58 @@ button.submit:hover {
 .tour-includes{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.day-content{
+  color: white;
+  font-size: 19px;
+  text-align: justify;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 2px;
+}
+.panel-primary{
+  background: transparent;
+}
+.panel{
+  border: thin outset rgba(184, 184, 184, 0.5);;
+}
+.panel-title{
+  text-align: left;
+}
+.panel-primary .ph-custom{
+  background: rgb(180,227,145); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(20,176,161,.6) 0%,
+  rgb(72, 190, 112) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 */
+  font-weight: bold;
+  color: white;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
 }
 .tour-includes .coll{
   margin-bottom: 15px;

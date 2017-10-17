@@ -54,9 +54,9 @@ class Footer extends Component {
                         <h4 className="logo"><a href="/"> Meto Coffee</a></h4>
                             <div className="social-icons">
                                 <a href="whatsapp://send?text=Hello, &phone=+971562367998">
-                                    <i style={{color:'green', 'font-size': '22px'}} className="fa fa-lg fa-whatsapp"></i>
+                                    <i style={{color:'green', 'fontSize': '26px'}} className="fa fa-lg fa-whatsapp"></i>
                                 </a>
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/metoCoffee/" className="facebook"><i className="fa fa-facebook"></i></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/metoCoffee/" className="facebook"><i style={{color:'#3b998', 'fontSize': '26px'}} className="fa fa-facebook"></i></a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC5NukewdRDsLyBv5vOSJ0kg" className="google"><i className="fa fa-youtube"></i></a>
                                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/metoGreenCoffee" className="twitter hidden-xs"><i className="fa fa-twitter"></i></a>
                             </div>

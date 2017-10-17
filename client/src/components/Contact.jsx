@@ -5,74 +5,76 @@ class Contact extends Component {
      render() {
         return (
             <div className="contact">
-                <div className="form-row1">
+                <div className="container extend">
+                    <div className="form-row1">
                     <h3>Register for Ethiopia Coffee Origin Tour</h3>
                     <hr/>
-                    <div className="container push-in">
-                        <h4>Please fill the form below for the tour and we will contact you. It is important that your email and telephone numbers are correctly entered. You can also provide us with additional information if you have special requests for the duration of the tour.</h4>
-                    </div>
+                </div>
+                </div>
+
+                <div className="container">
+                    <TourInclude />
                 </div>
                 <div className="form-row">
-                <div className="row container">
+                <div className=" push-in container">
+                        <h4>Register below for the tour and we will contact you. It is important that your email and telephone numbers are correctly entered. You can also provide us with additional information if you have special requests for the duration of the tour.</h4>
+                    </div>
+                <div className="row container-form container">
                     <form action="/contact/sendMessage" method="post" data-toggle="validator" className="form-horizontal">
                         <p className="push-left"><strong>Fields marked <span style={{color:'red'}}>*</span> are required </strong></p>
-                        <div className="form-group">
-                        <label htmlFor="first_name" className="col-sm-3 control-label">First Name <span style={{color:'red'}}>*</span></label>
-                        <div className="col-sm-8">
-                            <input id="first_name" type="text" name="first_name" placeholder="First Name" className="form-control input-lg" required/>
-                        </div>
-                        </div>
+                        <div className="col-sm-6">
+                            <div className="form-group">
+                            <label htmlFor="first_name" className="col-sm-3 control-label">First Name <span style={{color:'red'}}>*</span></label>
+                            <div className="col-sm-9">
+                                <input id="first_name" type="text" name="first_name" placeholder="First Name" className="form-control" required/>
+                            </div>
+                            </div>
 
-                        <div className="form-group">
-                        <label htmlFor="last_name" className="col-sm-3 control-label">Last Name <span style={{color:'red'}}>*</span></label>
-                        <div className="col-sm-8">
-                            <input id="last_name" type="last_name" name="last_name" placeholder="Last Name" className="form-control input-lg" required/>
+                            <div className="form-group">
+                            <label htmlFor="last_name" className="col-sm-3 control-label">Last Name <span style={{color:'red'}}>*</span></label>
+                            <div className="col-sm-9">
+                                <input id="last_name" type="last_name" name="last_name" placeholder="Last Name" className="form-control" required/>
+                            </div>
+                            </div>
+                            <div className="form-group">
+                            <label htmlFor="email" className="col-sm-3 control-label">Email <span style={{color:'red'}}>*</span></label>
+                            <div className="col-sm-9">
+                                <input id="email" type="email" name="email1" placeholder="Email" data-error="Email format not valid" className="form-control" required/>
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            </div>
+                            <div className="form-group">
+                            <label htmlFor="email" className="col-sm-3 control-label">Retype Email <span style={{color:'red'}}>*</span></label>
+                            <div className="col-sm-9">
+                                <input id="email" type="email" name="email2" placeholder="Retype email" data-error="Email format not valid" className="form-control" required/>
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            </div>
+
+
                         </div>
-                        </div>
-                        <div className="form-group">
-                        <label htmlFor="email" className="col-sm-3 control-label">Email <span style={{color:'red'}}>*</span></label>
-                        <div className="col-sm-8">
-                            <input id="email" type="email" name="email1" placeholder="Email" data-error="Email format not valid" className="form-control input-lg" required/>
-                            <div className="help-block with-errors"></div>
-                        </div>
-                        </div>
-                        <div className="form-group">
-                        <label htmlFor="email" className="col-sm-3 control-label">Retype Email <span style={{color:'red'}}>*</span></label>
-                        <div className="col-sm-8">
-                            <input id="email" type="email" name="email2" placeholder="Retype email" data-error="Email format not valid" className="form-control input-lg" required/>
-                            <div className="help-block with-errors"></div>
-                        </div>
-                        </div>
-                        <div className="form-group">
-                        <label htmlFor="telephone" className="col-sm-3 control-label">Phone Number <span style={{color:'red'}}>*</span></label>
-                        <div className="col-sm-8">
-                            <input id="tel" type="text" name="telephone" placeholder="Phone number" data-error="Phone number not valid" className="form-control input-lg" required/>
-                            <div className="help-block with-errors"></div>
-                        </div>
-                        </div>
-                        {/*<div className="form-group">
-                        <label htmlFor="subject_title" className="col-sm-3 control-label">Message Subject </label>
-                        <div className="col-sm-7">
-                            <input id="subject_title" type="text" name="subject_title" placeholder="Subject" className="form-control input-lg" required/>
-                        </div>
-                        </div>
-                        */}
-                        <div className="form-group">
-                        <label htmlFor="textarea" className="col-sm-3 control-label">Message</label>
-                        <div className="col-sm-8">
-                            <textarea id="textarea" name="message" rows="5" placeholder="Write your message here ..." className="form-control input-lg" ></textarea>
-                        </div>
-                        </div>
-                        <div className="form-group">
-                        <div className="col-sm-offset-3 col-sm-8">
-                            <button type="submit" className="submit btn btn-primary pull-right">Submit</button>
-                        </div>
+                        <div className="col-sm-6">
+                            <div className="form-group">
+                            <label htmlFor="telephone" className="col-sm-3 control-label">Phone Number <span style={{color:'red'}}>*</span></label>
+                            <div className="col-sm-9">
+                                <input id="tel" type="text" name="telephone" placeholder="Phone number" data-error="Phone number not valid" className="form-control" required/>
+                                <div className="help-block with-errors"></div>
+                            </div>
+                            </div>
+                            <div className="form-group">
+                            <label htmlFor="textarea" className="col-sm-3 control-label">Message</label>
+                            <div className="col-sm-9">
+                                <textarea id="textarea" name="message" rows="5" placeholder="Write your message here ..." className="form-control" ></textarea>
+                            </div>
+                            </div>
+                            <div className="form-group">
+                            <div className="col-sm-offset-3 col-sm-9">
+                                <button type="submit" className="submit btn btn-md btn-primary pull-right">Submit</button>
+                            </div>
+                            </div>
                         </div>
                     </form>
 
-                </div>
-                <div className="container">
-                    <TourInclude />
                 </div>
                 </div>
 
@@ -112,7 +114,7 @@ class Contact extends Component {
 
                                     <div className="social-icons">
                                         <a href="whatsapp://send?text=Hello, &phone=+971562367998">
-                                        <i style={{color:'green', 'font-size': '36px'}} className="fa fa-lg fa-whatsapp"></i>
+                                        <i style={{color:'green', 'fontSize': '36px'}} className="fa fa-lg fa-whatsapp"></i>
                                         </a>
                                         <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/metoCoffee/" className="facebook"><i className="fa fa-lg fa-facebook"></i></a>
                                         <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC5NukewdRDsLyBv5vOSJ0kg" className="google"><i className="fa fa-lg fa-youtube"></i></a>
